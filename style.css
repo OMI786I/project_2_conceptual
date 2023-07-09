@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.bg-primary {
+  background-color: red;
+  color: white;
+}
+
+.primary {
+  color: red;
+}
+.title {
+  font-size: 55px;
+  font-weight: bold;
+  color: white;
+}
+/*nav part*/
+.nav-container {
+  display: flex;
+  background-color: gray;
+  padding: 10px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.menus {
+  display: flex;
+  gap: 15px;
+  list-style: none;
+  font-size: 17px;
+  color: white;
+}
+
+/*banner container part*/
+
+.banner-container {
+  height: 100vh;
+  background: url("./asset/image/background.jpg"),
+    linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4));
+  background-blend-mode: overlay; /*linear gradient dite hole eta lage chobir upore*/
+  background-position: center;
+  background-size: cover; /*Follow this code for background image*/
+  /*real image puropuri background e ashbe*/
+  display: flex;
+  align-items: center;
+  text-align: center; /*ei 3 ta code diye lekhake center kora hoise*/
+}
+.description {
+  color: white;
+  padding: 10px;
+  width: 50%;
+  margin: auto; /*banner er p tag er likhake ke majhe niye asha hoise*/
+}
+
+.btn {
+  padding: 12px 20px;
+  border: none;
+}
