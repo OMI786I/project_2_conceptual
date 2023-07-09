@@ -121,3 +121,21 @@
   border-right: 2px solid red;
   padding-right: 20px;
 }
+
+/*Appointment part*/
+.phone-call {
+  display: flex;
+  align-items: center;
+}
+
+.appointment-container {
+  display: flex;
+  justify-content: space-around;
+  width: 70%;
+  margin: auto; /*ekhane margin auto deyate dui pash theke 10% 10% kore majhe chole asche*/
+  padding: 20px;
+  background-color: red;
+  border-radius: 10px;
+  margin-top: -30px; /*ektu math ager services part e diye rakse*/
+  align-items: center;
+}
